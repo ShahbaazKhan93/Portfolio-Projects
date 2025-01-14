@@ -27,7 +27,7 @@ select count(customer_id) as total_customers from retail_sales;
 
 select distinct category from retail_sales;
 
-#Q1) retreive all columns for the sales made on '2022-11-01'
+**#Q1) retreive all columns for the sales made on '2022-11-01'**
 select * from retail_sales where sale_date = '2022-11-01';
 
 #Q2) retreive all the transactions where the category is clothing and the quantity sold is more than 10
